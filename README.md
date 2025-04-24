@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# Cosmo Explorer Interactive Website
 
-## Project info
+Welcome to the Cosmo Explorer Interactive Website — a modern, accessible, and engaging web experience built with a cutting-edge tech stack. Explore interactive space games, dynamic articles, and a custom space design system crafted for seamless user experience across devices.
 
-**URL**: https://lovable.dev/projects/1f16759a-381d-4c9d-89f0-f2ae0b68d1ae
+---
 
-## How can I edit this code?
+## Table of Contents
 
-There are several ways of editing your application.
+- [Project Overview](#project-overview)  
+- [Tech Stack](#tech-stack)  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Getting Started](#getting-started)  
+- [Usage](#usage)  
+- [Accessibility](#accessibility)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f16759a-381d-4c9d-89f0-f2ae0b68d1ae) and start prompting.
+## Project Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is a responsive, space-themed website built with React and TypeScript, styled using Tailwind CSS. It features interactive games, dynamic content loading, and a strong focus on accessibility and performance. The design system and animations reflect a unique space aesthetic.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **TypeScript** — Type-safe JavaScript for better developer experience  
+- **React** — Component-based UI framework with hooks and React Router  
+- **Tailwind CSS** — Utility-first CSS framework with custom animations and color scheme  
+- **HTML5 & Modern CSS** — Semantic markup, CSS Grid, Flexbox, transitions, and glassmorphism effects  
+- **UI Libraries** — shadcn/ui, Radix UI, Lucide React icons  
+- **Build Tools** — Vite, PostCSS, TypeScript compiler  
+- **Package Manager** — npm  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Responsive, mobile-first design with breakpoint-based layouts  
+- Interactive space-themed games  
+- Dynamic article loading with smooth animations  
+- Accessibility-first approach (ARIA labels, keyboard navigation, screen reader support)  
+- Custom space-themed design system and animations  
+- Performance optimizations: code splitting, tree-shaking, optimized assets  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Project Structure
+src/
+├── components/ # Reusable UI components
+├── pages/ # Route-based page components
+├── games/ # Interactive game components
+├── hooks/ # Custom React hooks
+├── utils/ # Utility functions
+├── types/ # TypeScript type definitions
+└── data/ # Static data and constants
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1f16759a-381d-4c9d-89f0-f2ae0b68d1ae) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
